@@ -1,43 +1,117 @@
-*{
-    font-family: "Poppins", Arial, sans-serif;
-    background: #fff;
-    line-height: 1.8;
-    font-weight: 400;
-    color: gray;
+* {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+.sosialMedia > a {
+  border: 1px solid #e6e6e6;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.sosialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoHome,
+span {
+  color: #000000;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 21px 29px 8px;
+}
+
+.navBar,.navRow{
+    background: #00043c;
+}
+
+.navUl{
+    display: flex;
     margin: 0;
-    padding: 0;
+}
+
+.navItem{
+    background-color: #00043c;
+    padding: 15px;
+    display: flex;
+}
+
+.navItem>a{
+    padding: 13px 16px;
+    color: white;
     text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
 }
 
-.sosialMedia>a{
-    border: 1px solid #e6e6e6;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 4px;
+.active{
+    background-color: #fdbe34;
 }
 
-.sosialMedia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.active>a{
+    color: black;
 }
 
-.logoHome,span{
-    color: #000000;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 1;
-    margin-bottom: 30px;
+.navSearch{
+    height: 46px;
+    width: 240px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 22px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
-.headerRow{
+.navInput{
+    height: 46px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 14px;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 25px 15px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.nacSearch .navInput{
+    width: calc(100% - 46px);
+    border: none;
+}
+
+.navRow{
     display: flex;
     justify-content: space-between;
-padding: 50px 21px 40px 8px;
+    align-items: center;
 }
+
+
+
+
+
+
+
+
