@@ -47,7 +47,7 @@ span {
 }
 
 .navSearch button {
-background-color: white;
+  background-color: white;
 }
 
 .navUl {
@@ -110,6 +110,8 @@ background-color: white;
   align-items: center;
 }
 
+/*  SUPER HEMZE CUTE */
+
 .hero {
   position: relative;
   height: 100vh;
@@ -147,4 +149,44 @@ background-color: white;
   font-weight: bold;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.service {
+  text-align: center;
+  width: 250px;
+}
+
+.service .icon {
+  background-color: #fdb827;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.service .icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
 }
