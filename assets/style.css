@@ -46,19 +46,24 @@ span {
   padding: 50px 21px 29px 8px;
 }
 
-.navBar,.navRow{
-    background: #00043c;
+.navBar,
+.navRow {
+  background: #00043c;
 }
 
-.navUl{
-    display: flex;
-    margin: 0;
+.navSearch button {
+  background-color: white;
 }
 
-.navItem{
-    background-color: #00043c;
-    padding: 15px;
-    display: flex;
+.navUl {
+  display: flex;
+  margin: 0;
+}
+
+.navItem {
+  background-color: #00043c;
+  padding: 15px;
+  display: flex;
 }
 
 .navItem>a{
@@ -95,18 +100,18 @@ span {
     border-radius: 5px;
 }
 
-.navInput{
-    height: 46px !important;
-    background: #fff !important;
-    color: #000000 !important;
-    font-size: 14px;
-    display: block;
-    border: none;
-    outline: none;
-    padding: 25px 15px;
-    border-radius: 0px;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+.navInput {
+  height: 46px !important;
+  background: #fff !important;
+  color: #000000 !important;
+  font-size: 14px;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 25px 15px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .nacSearch .navInput{
@@ -114,10 +119,10 @@ span {
     border: none;
 }
 
-.navRow{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* header end */
@@ -253,33 +258,44 @@ span {
     margin-bottom: 30px;
   }
   
+  .right-section h2 {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #fdbe34;
+  }
+  
   .tabs {
     display: flex;
     margin-bottom: 20px;
+    gap: 15px;
   }
   
   .tab {
     flex: 1;
     padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #f6de7e;
     font-size: 16px;
     cursor: default;
   }
   
   .tab:hover {
-    background-color: #d88e1f;
+    background-color: #fdbe34;
     color: white;
     transition: background 0.3s ease-in-out;
   }
   
   .tab.active {
-    background-color: #d88e1f;
+    background-color: #fdbe34;
+    border: none;
     color: white;
     transition: background 0.3s ease-in-out;
   }
   .tab.active:hover {
-    background-color: #c57b1c;
+    background-color: #fdbe34;
     color: white;
     transition: background 0.3s ease-in-out;
   }
@@ -321,10 +337,12 @@ span {
   
   .left-column {
     background-color: #f5f5f5;
+    padding-left: 136px;
   }
   
   .right-column {
     background: #fdbe34;
+    padding-right: 136px;
   }
   
   .stat {
@@ -334,6 +352,13 @@ span {
     width: 200px;
     text-align: left;
     margin-top: 30px;
+  }
+
+  .stat strong{
+    line-height: 1;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
   }
   
   .stat h1 {
@@ -352,8 +377,6 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
-    padding: 20px;
     width: 100%;
     /* max-width: 1200px; */
     margin: 0 auto;
