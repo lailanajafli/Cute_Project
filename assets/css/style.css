@@ -1,6 +1,5 @@
 * {
   font-family: "Poppins", Arial, sans-serif;
-  background: #fff;
   line-height: 1.8;
   font-weight: 400;
   color: gray;
@@ -30,8 +29,8 @@
   align-items: center;
 }
 
-.logoHome,
-span {
+.logoHome, span{
+ 
   color: #000000;
   font-weight: 800;
   font-size: 30px;
@@ -107,11 +106,78 @@ span {
     justify-content: space-between;
     align-items: center;
 }
+a{
+  display: flex;
+  color: grey;
+}
+.mainImage{
+ display: flex;
+  position: relative;
+  
+}
 
-
-
-
-
-
-
-
+.scrol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment{
+  margin-top: 10px;
+  display: flex;
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  text-decoration: none;
+ gap: 10px;
+}
+.homeBar{
+  position: absolute;
+  z-index: 9;
+  top: 97%;
+  text-decoration: none;
+  color: #fff;
+}
+.blogBar{
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+h2{
+  color: #fff;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.hero{
+  margin-bottom: 50px;
+}
+.scrolItem{
+  color: gray;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: gray;
+}
+.scrolItemm{
+  background: #fdbe34;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: gray;
+}
+.colorItem{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
