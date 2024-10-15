@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.hero-wrap a, span, p{
+  color: white;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -23,6 +27,14 @@ a:hover {
   align-items: center;
   border-radius: 50%;
   margin-right: 4px;
+}
+.logoHome:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.sosialMedia > a:hover{
+  text-decoration: none;
 }
 
 .sosialMedia {
@@ -547,3 +559,112 @@ span {
 .textInput {
   display: flex;
 }
+
+/* footer start */
+
+.footer {
+  padding: 0;
+  position: relative;
+  height: 448px;
+  overflow: hidden;
+  background: #252525;
+}
+
+.footer h2{
+  font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer a, span, p{
+  font-size: 16px;
+  font-weight: 500 important!;
+} 
+
+.footer a:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+.footerSosial{
+  display: flex;
+    gap: 15px;
+}
+
+.footerSosialItem a{
+  height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+
+.thirdFooter{
+  display: flex;
+  gap: 120px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.thirdList{
+  display: flex;
+  gap: 70px;
+  width: 590px;
+  margin-top: 27px;
+  justify-content: center;
+}
+
+
+.footerFormDiv input, textarea{
+  background: white !important;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 16px;
+  width: 300px;
+  padding: 10px 8px 10px 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.footerForm{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerSend{
+  font-size: 14px;
+    background: #fdbe34;
+    border-radius: 5px;
+    width: 300px;
+    padding: 12px 8px 12px 14px;
+    border: none;
+    padding: 5px 30px;
+}
+
+.listUnstyled li,a{
+font-weight: bold;
+}
+
+.listUnstyled{
+  line-height: 2;
+}
+
+.formColor{
+  background-color: #333333;
+  padding: 27px 45px 0px 45px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+
+/* footer end */
