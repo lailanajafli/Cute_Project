@@ -1,6 +1,5 @@
 * {
   font-family: "Poppins", Arial, sans-serif;
-  line-height: 1.8;
   font-weight: 400;
   color: gray;
   margin: 0;
@@ -190,4 +189,71 @@ h2{
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
+}
+/* Blog section start */ 
+ 
+.buildingUrl{ 
+  background-image: url(https://preview.colorlib.com/theme/homebuilder/images/bg_3.jpg.webp); 
+  position: relative; 
+  height: 400px; 
+  background-size: cover; 
+  filter: brightness(50%); 
+  background-position: center center; 
+  margin-bottom: 1%;
+  
+} 
+ 
+.overlay .hero-wrap{ 
+  position: absolute; 
+    background: #000000; 
+  
+} 
+ 
+.textBuilding{ 
+  position: absolute; 
+  height: 382px; 
+  left: 25%; 
+  line-height: 1px; 
+  transform: translate(-50%, -50%); 
+  text-align: left; 
+  color: white; 
+  display: flex;
+  } 
+ 
+.textBuilding a{ 
+  font-size: 16px; 
+  text-decoration: none; 
+  margin-right: 12px; 
+  font-weight: 400; 
+  color: rgba(255, 255, 255, 0.7); 
+  display: flex;
+  } 
+ 
+.textBuilding>span{ 
+  font-size: 16px; 
+  font-weight: 400; 
+  color: rgba(255, 255, 255, 0.5); 
+  display: flex;  
+} 
+ 
+  .textBuilding a:hover{ 
+    text-decoration: none; 
+    color: #fdbe34; 
+  } 
+ 
+  .blog{ 
+    font-size: 74px; 
+  font-weight: 700; 
+  margin-left: 10px;
+  margin-top: 25%; 
+  color: #fff;
+ 
+  } 
+ 
+/* Blog section end */
+.comment>a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color:#6c757d
 }
