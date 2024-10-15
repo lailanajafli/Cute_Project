@@ -422,6 +422,7 @@ span {
 
 .yellowSection {
   background: #fdbe34;
+  color: gray;
   padding-bottom: 90px;
 }
 
@@ -434,6 +435,7 @@ span {
 .yellowText > h2 {
   font-size: 40px;
   font-weight: 700;
+  color: black;
 }
 
 .yellowText {
@@ -484,8 +486,64 @@ span {
   background: #fdbe34;
 }
 
-.dot{
+.dot {
   display: flex;
-    justify-content: center;
-    margin-top: 55px;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.end {
+  padding: 7em 0;
+  color: gray;
+}
+
+.end > h5 {
+  font-weight: 700;
+}
+
+.endText {
+  display: flex;
+  gap: 80px;
+  font-size: 18px;
+}
+
+.endFormText {
+  background: #fdbe34;
+  margin-top: 90px;
+  padding: 38px 0 38px 0;
+  border-radius: 4px;
+  margin-bottom: 70px;
+}
+
+.submitBtn {
+  color: #fff !important;
+  background: #fcad02 !important;
+  border-radius: 0px 5px 5px 0px;
+  padding: 5px 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  border: none;
+}
+
+.mailInput {
+  background: white !important;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 16px;
+  width: 100%;
+  padding: 13px 12px 13px 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.endFormCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.textInput {
+  display: flex;
 }
