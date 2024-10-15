@@ -58,6 +58,17 @@
     padding: 15px;
     display: flex;
 }
+.navItem>a:hover{ 
+    text-decoration: none; 
+    color: black; 
+    background-color: #fdbe34; 
+ 
+} 
+.navItem:hover{ 
+    background-color: #fdbe34; 
+ 
+}
+
 
 .navItem>a{
     padding: 13px 16px;
@@ -119,7 +130,6 @@ a{
 .scrol{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .comment{
   margin-top: 10px;
