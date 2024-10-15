@@ -440,7 +440,167 @@ span {
 }
 
 .stat span {
-  font-size: 30px;
+  font-size: 28px;
   color: #333;
   font-weight: 750;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  padding: 20px;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  cursor: pointer;
+  filter: brightness(50%);
+  transition: transform 0.7s;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  padding: 15px 10px;
+}
+
+.overlay p {
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.overlay strong {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonial-section {
+  background-color: #f4b01c;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container-client {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-subtitle {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 40px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+}
+
+.testimonial-card .quote {
+  position: absolute;
+  top: -30px;
+  left: 12;
+  font-size: 2em;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #f4b01c;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.testimonial-card .quote span {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  margin-left: 3px;
+}
+
+.testimonial-card p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+}
+
+.client-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.client-info h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.client-info span {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.testimonial-navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dot.active {
+  background-color: white;
 }
